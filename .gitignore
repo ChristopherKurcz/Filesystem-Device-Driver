@@ -1,0 +1,6 @@
+.DS_Store
+*.o
+fs3_sim
+assign4-jumbo-workload.txt
+assign4-medium-workload.txt
+assign4-small-workload.txt
