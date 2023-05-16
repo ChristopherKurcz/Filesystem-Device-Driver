@@ -1,5 +1,3 @@
-# The “File System 311” - FS3 Filesystem (Version 3.0) - CMPSC311 - Introduction to Systems Programming - Fall 2021 - Prof. McDaniel
-
 ## Description
 
 All remaining assignments for this class are based on the creation and extension of a user-space device driver for a filesystem that is built on top of a virtual disk drive. At the highest level, you will translate file system commands into disk operations (see disk interface specification below). The file system commands include `mount`, `unmount`, `open`, `read`, `write`, `seek` and `close` for files that are written to the file system. These operations perform the same as the normal UNIX I/O operations, with the caveat that they direct file operations to the FS3 device instead of the host filesystem. The arrangement of software is as follows:
